@@ -14,3 +14,5 @@ I also made use of the platform's features to code live price updates in one's c
 
 For Hello! Cards, I researched typical market prices for the listed card-related products, keeping in mind the store's foundation in affordability and style, as well as how similar establishments advertised their products.
 This project provides just a small highlight of my knowledge of user-friendly navigation, dynamic checkout processes, building customer trust, varied product assortments, cybersecurity, and focus on the target market/ICP.
+
+NOTE: Some viewers may have issues interacting with JavaScript elements due to their specific processing system/environment.
