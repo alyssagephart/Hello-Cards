@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
+:root {
+    --primary-color: #b33600;
+    --secondary-color: #ccffed;
+    --tertiary-color: #fff2cc;
+    --background-color: #F5F7FA;
+    --text-color: #333333;
+    --body-font: 'Montserrat', sans-serif;
+    --header-font: 'Merriweather Sans', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #611d00;
+}
+header img {
+    border-radius: 50%;
+    width: 130px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.logo-container a {
+    font-family: var(--header-font);
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+header nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5rem;
+    padding-right: 5rem;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid #611d00;
+    padding: 20px;
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+article {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    min-height: 63vh; /*brings footer up, change as/if needed for other pages*/
+}
+.content-container {
+    background-color: var(--tertiary-color);
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    box-shadow: 2px 2px 5px gray;
+}
+.content-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #611d00;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+}
+aside {
+    float: right;
+    margin-right: 50px;
+}
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+h1 {
+    font-size: 3em;
+}
+
+.code {
+    color: rgb(219, 0, 0);
+    font-weight: bold;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+.item-container {
+    background-color: var(--tertiary-color);
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 2px 2px 5px gray;
+
+    flex-direction: column;
+}
+.item-container h2 {
+    text-align: center;
+    font-style: italic;
+}
+.item-container button {
+    align-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #611d00;
+    background-color: var(--secondary-color);
+    font-family: var(--header-font);
+}
+.item-container p {
+    font-weight: bold;
+}
+.item-container img {
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid #611d00;
+    background-color: white;
+}
+.desc {
+    text-align: center;
+}
+details {
+    background: linear-gradient(rgb(201, 255, 250), rgb(255, 211, 176));
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #611d00;
+}
+button.snipcart-add-item {
+    cursor: pointer;
+}
+h3 {
+    text-align: center;
+    background: linear-gradient(rgb(201, 255, 250), rgb(255, 211, 176));
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    aside {
+        float: none;
+        margin: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 2.5rem;
+        padding-right: 0rem;
+        padding-left: 0.5rem;
+    }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CIS235 Final Exam Project - Card Shop">
+    <meta name="author" content="Alyssa Gephart">
+    <title>CIS235 Final Exam Project - Card Shop</title>
+    <!--Google fonts imported in css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="/highslide-5.0.0/highslide/highslide.js"></script>
+<link rel="stylesheet" type="text/css" href="/highslide-5.0.0/highslide/highslide.css" />
+<script type="text/javascript">
+    // override Highslide settings here
+    // instead of editing the highslide.js file
+    hs.graphicsDir = '/highslide-5.0.0/highslide/graphics/';
+</script>
+</head>
+<body>
+      <script>
+    window.SnipcartSettings = {
+        publicApiKey: 'NmIxNWM0ZDYtNTIzMi00ZjVkLWE5NzMtZmI4OGJkMWU3NWIyNjM5MDAxNjI5MTg2MTcxMTI1',
+        loadStrategy: 'on-user-interaction',
+    };
+
+    (()=>{var c,d;(d=(c=window.SnipcartSettings).version)!=null||(c.version="3.0");var s,S;(S=(s=window.SnipcartSettings).timeoutDuration)!=null||(s.timeoutDuration=2750);var l,p;(p=(l=window.SnipcartSettings).domain)!=null||(l.domain="cdn.snipcart.com");var w,u;(u=(w=window.SnipcartSettings).protocol)!=null||(w.protocol="https");var f=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,m=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(m.forEach(t=>document.addEventListener(t,o)),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var a=!1;function o(){if(a)return;a=!0;let t=document.getElementsByTagName("head")[0],e=document.querySelector("#snipcart"),i=document.querySelector(`src[src^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][src$="snipcart.js"]`),n=document.querySelector(`link[href^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][href$="snipcart.css"]`);e||(e=document.createElement("div"),e.id="snipcart",e.setAttribute("hidden","true"),document.body.appendChild(e)),v(e),i||(i=document.createElement("script"),i.src=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.js`,i.async=!0,t.appendChild(i)),n||(n=document.createElement("link"),n.rel="stylesheet",n.type="text/css",n.href=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.css`,t.prepend(n)),m.forEach(g=>document.removeEventListener(g,o))}function v(t){!f||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+</script>
+    <header><div class="logo-container"><a href="index.html"><img src="images/logo.jpg" alt="Hello Card Shop Logo"></a><a href="index.html">Hello! Cards</a></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cards.html">Cards</a></li>
+            <li><a href="balloons.html">Balloons</a></li>
+        </ul>
+    </nav></header>
+    <h3>Demo Store for Learning Purposes Only — Do Not Buy Any Products From This Site.</h3>
+    <article class="card-grid">
+        <div class="item-container">
+            <a href="images/greetings-large1.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/greetings-large.png" alt="greeting card"></a>
+            <section class="item-description">
+                <h2>Greetings</h2>
+                <p class="desc">Send your warmest regards with our greeting card, perfect for any occasion to say: hello!</p>
+                <details open>
+                    <summary>Card Details</summary>
+                    <ul>
+                        <li>5" x 7"</li>
+                        <li>Recycled Cardstock</li>
+                        <li>Blank inside</li>
+                        <li>Purple envelope included</li>
+                    </ul>
+                </details>
+                <p class="price">$3.99</p>
+                <button class="snipcart-add-item"
+  data-item-id="greetings-card"
+  data-item-price="3.99"
+  data-item-description="Send your warmest regards with our greeting card, perfect for any occasion to say: hello!"
+  data-item-image="/images/greetings.png"
+  data-item-name="Greetings">Add to Cart</button>
+            </section>
+        </div>
+        <div class="item-container">
+            <a href="images/withlove-large1.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/withlove.png" alt="card for expressing love"></a>
+            <section class="item-description">
+                <h2>With Love</h2>
+                <p class="desc">Express your feelings to a loved one and let them know you care.</p>
+                <details open>
+                    <summary>Card Details</summary>
+                    <ul>
+                        <li>5" x 7"</li>
+                        <li>Recycled Cardstock</li>
+                        <li>Blank inside</li>
+                        <li>Purple envelope included</li>
+                    </ul>
+                </details>
+                <p class="price">$3.99</p>
+                <button class="snipcart-add-item"
+  data-item-id="withlove-card"
+  data-item-price="3.99"
+  data-item-description="Express your feelings to a loved one and let them know you care."
+  data-item-image="/images/withlove.png"
+  data-item-name="With Love">Add to Cart</button>
+            </section>
+        </div>
+        <div class="item-container">
+            <a href="images/anniversary-large1.jpg" class="highslide" onclick="return hs.expand(this)"><img src="images/anniversary.png" alt="happy anniversary card"></a>
+            <section class="item-description">
+                <h2>Anniversary</h2>
+                <p class="desc">Don't forget! Every anniversary means celebration of an important time and wonderful times to come.</p>
+                <details open>
+                    <summary>Card Details</summary>
+                    <ul>
+                        <li>5" x 7"</li>
+                        <li>Recycled Cardstock</li>
+                        <li>Blank inside</li>
+                        <li>Purple envelope included</li>
+                    </ul>
+                </details>
+                <p class="price">$3.99</p>
+                <button class="snipcart-add-item"
+  data-item-id="anniversary-card"
+  data-item-price="3.99"
+  data-item-description="Don't forget! Every anniversary means celebration of an important time and wonderful times to come."
+  data-item-image="/images/anniversary.png"
+  data-item-name="Anniversary">Add to Cart</button>
+            </section>
+        </div>
+    </article>
+    <footer>
+        <address><strong>Hello! Cards</strong><br>
+            123 N. Card Street, Cardtown, CA 90210<br>
+        <a href="#">hello!cards@gmail.com</a></address>
+    </footer>
+</body>
+</html>
